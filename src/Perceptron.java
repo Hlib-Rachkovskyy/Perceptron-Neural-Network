@@ -7,11 +7,12 @@ public class Perceptron {
 
     private double[] weights;
     public Perceptron(){
+
         this.weights = new double[26];
         this.dataToLearn = new ArrayList<>();
         this.dataToPredict = new ArrayList<>();
         for (int i = 0; i < 26; i++){
-            this.weights[i] = 0;
+            this.weights[i] = Math.random() -0.5;
         }
     }
     public void test() {
@@ -22,15 +23,15 @@ public class Perceptron {
                 counter++;
             }
         }
+
         System.out.println(counter + " of " + dataToPredict.size() + " tests passed");
     }
     public void PerceptronTrainingFromData(){
         int counter;
-        Arrays.fill(weights, 0.0);
         do {
             for (String trainText : dataToLearn) {
                 double[] dataForPerceptron = Service.createData(trainText);
-                train(dataForPerceptron, 10000);
+                train(dataForPerceptron, 1);
             }
 
             counter = 0;
@@ -40,7 +41,6 @@ public class Perceptron {
                     counter++;
                 }
             }
-            System.out.println(counter);
         } while (counter != dataToLearn.size());
         System.out.println(Arrays.toString(weights));
     }
@@ -49,7 +49,7 @@ public class Perceptron {
     public void train(double[] dataToTrain, int iterations){
         for (int i = 0; i < iterations; i++){
             double prediction = predict(dataToTrain);
-            double error =  1 - prediction ;
+            double error =  1 - prediction;
             for (int j = 0; j < weights.length; j++){
                 double alpha = 0.2;
                 double delta = alpha * error * dataToTrain[j];
@@ -64,7 +64,7 @@ public class Perceptron {
             ans += weights[i] * input[i];
         }
 
-        return ans > 0 ? 1.0 : 0.0 ;
+        return ans > 0 ? 1.0 : 0.0;
     }
 
 }

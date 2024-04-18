@@ -16,14 +16,11 @@ public class Main {
         perceptronLanguagesTest = new HashMap<>();
         perceptronLanguagesTrain = new HashMap<>();
         findData();
-        for (String perceptron : perceptronLayer.keySet()) {
-
-
-            perceptronLayer.get(perceptron).dataToLearn = perceptronLanguagesTrain.get(perceptron);
-            perceptronLayer.get(perceptron).dataToPredict = perceptronLanguagesTest.get(perceptron);
-
-            perceptronLayer.get(perceptron).PerceptronTrainingFromData();
-            perceptronLayer.get(perceptron).test();
+        for (String language : perceptronLayer.keySet()) {
+            perceptronLayer.get(language).dataToLearn = perceptronLanguagesTrain.get(language);
+            perceptronLayer.get(language).dataToPredict = perceptronLanguagesTest.get(language);
+            perceptronLayer.get(language).PerceptronTrainingFromData();
+            perceptronLayer.get(language).test();
         }
     }
 
@@ -40,7 +37,7 @@ public class Main {
                 @Override
                 public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) throws IOException {
                     if (!(dir.getFileName().toString().equals("Training"))) {
-                            createPerceptron(dir.getFileName().toString());
+                        createPerceptron(dir.getFileName().toString());
                     }
                     return FileVisitResult.CONTINUE;
                 }
@@ -61,11 +58,6 @@ public class Main {
                     return FileVisitResult.CONTINUE;
                 }
 
-                @Override
-                public FileVisitResult visitFileFailed(Path file, IOException exc) throws IOException {
-                    System.err.println("Failed to visit file: " + file);
-                    return FileVisitResult.CONTINUE;
-                }
             });
 
             Files.walkFileTree(Paths.get("Test/"), new SimpleFileVisitor<Path>() {
@@ -79,18 +71,12 @@ public class Main {
                     BufferedReader br = new BufferedReader(new FileReader(file.toFile()));
                     String a;
                     String s = "";
-                    while(( a = br.readLine()) != null) {
+                    while((a = br.readLine()) != null) {
                         s += a;
                     }
                     if (file.getParent().getParent().getFileName().toString().equals("Test")) {
                         perceptronLanguagesTest.get(file.getParent().getFileName().toString()).add(s);
                     }
-                    return FileVisitResult.CONTINUE;
-                }
-
-                @Override
-                public FileVisitResult visitFileFailed(Path file, IOException exc) throws IOException {
-                    System.err.println("Failed to visit file: " + file);
                     return FileVisitResult.CONTINUE;
                 }
             });
