@@ -11,6 +11,9 @@ public class Main {
     public static void main(String[] args) {
         perceptronLayer = new HashMap<>();
         findData("Test");
+        for (Perceptron perceptron : perceptronLayer.values()) {
+            perceptron.makeMagic(perceptron.dataToLearn);
+        }
     }
 
     public static void createPerceptron(String language){
@@ -23,13 +26,16 @@ public class Main {
                 @Override
                 public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) throws IOException {
                     System.out.println("Directory: " + dir.getFileName());
-                    createPerceptron(dir.getFileName().toString());
+                    if (!(dir.getFileName().toString().equals("Test") || dir.getFileName().toString().equals("Training"))) {
+                        createPerceptron(dir.getFileName().toString());
+                    }
+                    System.out.println(perceptronLayer);
                     return FileVisitResult.CONTINUE;
                 }
 
                 @Override
                 public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-                    System.out.println("File: " + file.getParent().getFileName());
+                    //System.out.println("File: " + file.getParent().getFileName());
                     BufferedReader br = new BufferedReader(new FileReader(file.toFile()));
                     String a;
                     String s = "";
