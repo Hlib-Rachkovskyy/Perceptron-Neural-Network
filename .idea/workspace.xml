@@ -5,12 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1b19992-f05c-49f5-a2fb-1aac85c5eb2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NAIPR.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SomeTrash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/EN/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HR/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/EN/10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/EN/10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/EN/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HR/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/EN/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/EN/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/EN/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/EN/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/EN/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/EN/5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/EN/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/EN/6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/EN/7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/EN/7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/EN/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/EN/8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/EN/9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/EN/9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/HR/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PL/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/HR/10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HR/10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/HR/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PL/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/HR/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HR/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/HR/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HR/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/HR/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HR/5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/HR/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HR/6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/HR/7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HR/7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/HR/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HR/8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/HR/9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HR/9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/PL/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/EN/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/PL/10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PL/10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/PL/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/EN/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/PL/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PL/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/PL/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PL/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/PL/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PL/5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/PL/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PL/6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/PL/7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PL/7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/PL/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PL/8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Test/PL/9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PL/9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/EN/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/EN/10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/EN/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/EN/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/EN/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/EN/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/EN/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/EN/7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/EN/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/EN/9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/HR/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/HR/10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/HR/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/HR/3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/HR/4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/HR/5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/HR/6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/HR/7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/HR/8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/HR/9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/PL/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/PL/10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/PL/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/PL/3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/PL/4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/PL/5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/PL/6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/PL/7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/PL/8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Training/PL/9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NAIPR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NAIPR.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Perceptron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Perceptron.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +82,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -27,9 +90,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2fGQJ1kuScql2wzQZhN0R1V6QhP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,8 +105,10 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.Unnamed.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/racho/IdeaProjects/NAIPR/Data/Test/PL",
     "node.js.detected.package.eslint": "true",
@@ -67,6 +132,9 @@
       <recent name="C:\Users\racho\IdeaProjects\NAIPR\Data\Training\HR" />
       <recent name="C:\Users\racho\IdeaProjects\NAIPR\Data\Training\EN" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\racho\IdeaProjects\NAI3" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -80,8 +148,9 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="jdk-21.0.2-liberica-full-21.0.2-3183f394aec4-a94a5b6c" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="jdk-22-openjdk-22-4caba194b151-f504ca98" />
       </set>
     </attachedChunks>
   </component>
@@ -94,6 +163,8 @@
       <option name="presentableId" value="Default" />
       <updated>1713424860932</updated>
       <workItem from="1713424862015" duration="7117000" />
+      <workItem from="1713438079842" duration="5373000" />
+      <workItem from="1713444142900" duration="6079000" />
     </task>
     <servers />
   </component>
