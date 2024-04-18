@@ -1,0 +1,78 @@
+Mjerna veličina ili fizikalna veličina je objektivno svojstvo materijalnog svijeta (tvari, tijela, stanja i pojava) koje se može kvalitativno razlikovati i kvantitativno odrediti (mjeriti). Prema međunarodnim i hrvatskim normama mjernim veličinama su određeni nazivi i znakovi (kosa slova latinične abecede ili grčkog alfabeta). Za svaku je mjernu veličinu određen po jedan znak, iznimno po nekoliko, na primjer duljina (znakovi l, a, b, d i drugo), masa (m), vrijeme (t, T), kut (α, β, φ i drugo), sila (F), električni napon (U). Mjerne veličine koje se međusobno razlikuju samo po vrijednosti istovrsne su veličine, a postupak njihova uspoređivanja naziva se mjerenjem. Odabrana vrijednost s kojom se uspoređuju sve istovrsne veličine naziva se mjernom jedinicom. Vrijednost se mjerne veličine iskazuje brojčanom vrijednošću i mjernom jedinicom, na primjer masa je pet kilograma (znakovima: m = 5 kg), ili masa u kilogramima je pet (znakovima m/kg = 5).[1] Mjerna veličina ili fizikalna veličina Izražava se kao umnožak brojevne vrijednosti {M} i mjerne jedinice [M]:
+
+{\displaystyle M=\{M\}\;[M]}
+Primjer:
+
+Električni napon
+
+{\displaystyle U=\{U\}\;[U]=20\;\mathrm {V} }
+{U} = 20 (brojevna vrijednost napona je 20)
+[U] = V (mjerna jedinica napona je volt)
+Skalarne i vektorske veličine
+Skalarne veličine su one za koje je dovoljan iskaz samo njihova vrijednost (masa, vrijeme, temperatura i drugo), a za vektorske veličine (brzina, sila i drugo) valja navesti dodatne podatke: smjer djelovanja, hvatište i drugo.
+
+Sustav veličina
+Sustav veličina je skup mjernih veličina među kojima postoje točno određeni odnosi. Osnovne veličine nekog sustava dogovorno su neovisne (na primjer duljina, masa, vrijeme), a sve ostale su izvedene veličine. Međusobni odnosi između pojedinih veličina iskazuju se veličinskim jednadžbama, a takvim se jednadžbama određuju i izvedene veličine, na primjer tlak p omjer je sile F (pritisak) i ploštine ili površine S:
+
+znakovima
+
+{\displaystyle p={F \over S}}
+električna snaga P umnožak je električnoga napona U i jakosti električne struje I:
+
+znakovima
+
+{\displaystyle P=U\cdot I}
+Neki omjeri mjernih veličina imaju posebne nazive, na primjer omjeri s vremenom nazivaju se brzinom, a ako su to energijske veličine i snagom (na primjer brzina gibanja, kutna brzina, brzina ili snaga doze i drugo), omjeri s masom imaju pridjev specifični (specifični toplinski kapacitet), a logaritam omjera nekih istovrsnih veličina naziva se razinom te veličine (razina jakosti zvuka, razina snage, razina tlaka i drugo).
+
+Osnovne mjerne veličine
+Osnovne mjerne ili fizikalne veličine su:
+
+Međunarodni sustav mjernih jedinica - osnovne mjerne veličine
+Mjerna veličina	Znak mjerne veličine	Mjerna jedinica	Znak mjerne jedinice
+Duljina	l	metar	m
+Vrijeme	t	sekunda	s
+Masa	m	kilogram	kg
+Temperatura	T	kelvin	K
+Količina tvari	n	mol	mol
+Električna struja	I, i	amper	A
+Svjetlosna jakost	Is	kandela	cd
+Kut u ravnini	α, β, γ, θ, φ, χ	radijan	rad
+Prostorni kut	ω, Ω	steradijan	sr
+Mjerna jedinica
+ Podrobniji članak o temi: Mjerna jedinica
+Mjerna jedinica je odabrana, dogovorena i objavljena poznata vrijednost mjerne (fizikalne) veličine s kojom se pri mjerenju uspoređuju sve druge istovrsne veličine. Vrijednosti, nazivi, znakovi i uporaba mjernih jedinica danas su određeni međunarodnim dogovorima, na kojima se temelje norme i mjeriteljski zakoni pojedinih zemalja. Mjerne se jedinice opisuju definicijom, nazivom i znakom. Posebno određene mjerne jedinice koje sudjeluju u izvođenju ostalih mjernih jedinica nekoga mjernog sustava nazivaju se osnovnim jedinicama. Neke su osnovne mjerne jedinice određene utjelovljenim pramjerama ili etalonima (na primjer kilogram), neke postupcima ostvarenja (na primjer metar, sekunda), a ostale se izvode iz drugih, već određenih jedinica. Mjerne jedinice nazvane su većinom prema prezimenima znamenitih znanstvenika, neke prema grčkim, latinskim i arapskim nazivima, a samo ih nekoliko ima tradicijski naziv. Znakovi mjernih jedinica većinom su početno slovo ili početna slova njihovih naziva, a samo je nekoliko tradicijskih znakova (podignuti kružići, podignute crtice i drugo), na primjer amper (znak A), njutn (N), tesla (T), vat (W), veber (Wb), volt (V), litra (L ili l), luks (lx), metar (m), (vremenska) sekunda (s), (kutni) stupanj (°), Celzijev stupanj (°C) i drugo. Nazive i znakove imaju samo osnovne jedinice SI te ograničen broj izvedenih jedinica SI i iznimno dopuštenih jedinica izvan SI. Većina izvedenih jedinica nema posebne nazive i znakove, nego se nazivaju i označavaju prema jedinicama od kojih su sastavljene, na primjer jedinica brzine metar u sekundi (m/s), jedinica volumnog protoka kubni metar u sekundi (m³/s), jedinica energije kilovatsat (kWh) i drugo.
+
+Zakonite mjerne jedinice
+ Podrobniji članak o temi: Međunarodni sustav mjernih jedinica
+Zakonite mjerne jedinice su mjerne jedinice propisane zakonima ili kojim drugim zakonskim dokumentima. Zbog osobite važnosti mjerenja u organiziranome ljudskom društvu, već su prve države propisivale mjerne jedinice, a njihove su se pramjere izlagale na javnim mjestima. Danas je u većini zemalja, na temelju međunarodnih dogovora i normi, zakonito samo 5 skupina mjernih jedinica: jedinice Međunarodnoga sustava (jedinice SI), decimalne jedinice od jedinica SI, iznimno dopuštene jedinice izvan SI, decimalne jedinice od nekih iznimno dopuštenih jedinica, te od svih njih složene mjerne jedinice. Samo se poneka mjerna jedinica izvan tih skupina iznimno dopušta za uporabu u posebnim područjima ili okolnostima (na primjer u pomorskom i zračnom prometu i međunarodnoj trgovini). U zemljama engleskoga govornoga područja još su u uporabi tradicijske angloameričke jedinice ili anglosaksonske mjere.
+
+Složene mjerne jedinice
+Složene mjerne jedinice su jedinice sastavljene od jedinica različitih skupina. Tako je jedinica koja se rabi za izražavanje brzine vozila kilometar na sat (znak km/h) sastavljena od decimalne jedinice od metra i iznimno dopuštene jedinice sat.
+
+Stare mjerne jedinice
+Stare mjerne jedinice su pojedinačne jedinice ili njihove skupine koje su se rabile u različitim razdobljima, na različitim mjestima i u različite svrhe, pa se nalaze u povijesnim dokumentima, pisanoj i usmenoj književnosti, a utjelovljene su u starim mjerama, uporabnim predmetima, građevinama i slično. Mnoge su stare mjerne jedinice napuštene uvođenjem Metarskoga sustava (Metarska konvencija) u drugoj polovici 19. stoljeća (na primjer hvat, lakat, palac, unca i drugo), te konačno uvođenjem Međunarodnoga sustava jedinica u drugoj polovici 20. stoljeća (na primjer standardna atmosfera, kilopond, konjska snaga, mikron i drugo).[2]
+
+Mjerenje
+ Podrobniji članak o temi: Mjerenje
+Mjerenje je postupak određivanja vrijednosti neke mjerne veličine. Izravnim mjerenjem uspoređuje se mjerena veličina s istovrsnom usporedbenom veličinom, ili mjernom jedinicom. Tako se duljina l mjeri uspoređivanjem s duljinom l0 mjernoga štapa. Posredno (neizravno) mjerenje obavlja se izravnim mjerenjem onih veličina od kojih je sastavljena mjerena veličina, temeljem nekoga znanstvenog načela, te izračunom njezine vrijednosti. Tako se ploština pravokutnika mjeri posredno, mjerenjem duljina stranica l1 i l2, te se na temelju geometrijske zakonitosti izračunava njihovim množenjem:[3]
+
+�
+=
+�
+1
+⋅
+�
+2
+{\displaystyle P=l_{1}\cdot l_{2}}
+Rezultat je mjerenja vrijednost mjerne veličine, izražena brojčanom vrijednošću i pripadnom mjernom jedinicom. Na primjer, ako je mjerena duljina l sadržavala 3 duljine mjernoga štapa, a njegova je duljina l0 = 1 m, vrijednost je mjerene duljine:
+
+
+{\displaystyle l=3\cdot l_{0}=3\,metra}.
+Normizacija
+ Podrobniji članak o temi: Mjerenje
+Normizacija je djelovanje i postupci na pripremanju, izradbi, prihvaćanju i primjenjivanju normi. Obavljaju ju normizacijska tijela (ustanove, zavodi), uz sudjelovanje stručnjaka za pojedina tehnička područja za koja se norme izrađuju. Svrha je postizanje prikladnosti proizvoda, postupaka i usluga, smanjenja troškova proizvodnje, te općenito uređenost u određenom području. Normizacija je dragovoljan proces, ali je postala odlučujućim čimbenikom u europskoj gospodarskoj integraciji i svjetskoj trgovini. U Hrvatskoj je u tijeku izradba ili prihvaćanje nekoliko tisuća normi. U Europskoj uniji je oko 20 tisuća normi, a godišnje se pojavljuje više od tisuću novih normi za različita područja primjene, koje postupno prihvaćamo u okviru Europske unije.[4]
+
+Norma
+ Podrobniji članak o temi: Norme
+Norma je sporazumno ustanovljen dokument, odobren od mjerodavnoga tijela, koji za opću uporabu daje pravila, upute, značajke djelovanja, te time jamči najviši stupanj usklađenosti u danim uvjetima. U tehničkoj su primjeni predmeti normiranja proizvodi, postupci ili usluge. Prema tijelima koja su donijela normu i područjima primjene razlikuju se međunarodne norme (ISO), europske norme (EN) i nacionalne norme. Hrvatska norma (zakonom zaštićen naziv i znak HRN) je ona norma koju je prihvatilo hrvatsko nacionalno normirno tijelo, te je dostupna javnosti. Jedan od temeljnih postupaka regionalnih i svjetskih integracija usklađivanje je nacionalnih normi s regionalnim i međunarodnim normama.[5]
+

@@ -3,22 +3,35 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Main {
+    private static Map<String, ArrayList<String>> perceptronLanguagesTest = new HashMap<>();
+    private static Map<String, ArrayList<String>> perceptronLanguagesTrain = new HashMap<>();
     private static Map<String, Perceptron> perceptronLayer;
     public static void main(String[] args) {
         perceptronLayer = new HashMap<>();
+        perceptronLanguagesTest = new HashMap<>();
+        perceptronLanguagesTrain = new HashMap<>();
         findData();
-        for (Perceptron perceptron : perceptronLayer.values()) {
-            perceptron.PerceptronTrainingFromData();
-            perceptron.test();
+        for (String perceptron : perceptronLayer.keySet()) {
+
+
+            perceptronLayer.get(perceptron).dataToLearn = perceptronLanguagesTrain.get(perceptron);
+            perceptronLayer.get(perceptron).dataToPredict = perceptronLanguagesTest.get(perceptron);
+
+            perceptronLayer.get(perceptron).PerceptronTrainingFromData();
+            perceptronLayer.get(perceptron).test();
         }
     }
 
     public static void createPerceptron(String language){
-        perceptronLayer.put(language, new Perceptron());
+        Perceptron p = new Perceptron();
+        perceptronLayer.put(language, p);
+        perceptronLanguagesTrain.put(language, new ArrayList<String>());
+        perceptronLanguagesTest.put(language, new ArrayList<String>());
     }
 
     public static void findData(){
@@ -42,7 +55,8 @@ public class Main {
                         s += a;
                     }
                     if (file.getParent().getParent().getFileName().toString().equals("Training")) {
-                        perceptronLayer.get(file.getParent().getFileName().toString()).addLearningData(s);
+
+                        perceptronLanguagesTrain.get(file.getParent().getFileName().toString()).add(s);
                     }
                     return FileVisitResult.CONTINUE;
                 }
@@ -69,7 +83,7 @@ public class Main {
                         s += a;
                     }
                     if (file.getParent().getParent().getFileName().toString().equals("Test")) {
-                        perceptronLayer.get(file.getParent().getFileName().toString()).addTestData(s);
+                        perceptronLanguagesTest.get(file.getParent().getFileName().toString()).add(s);
                     }
                     return FileVisitResult.CONTINUE;
                 }

@@ -1,10 +1,128 @@
-Under the newly formed Kingdom of Great Britain, output from the Royal Society and other English initiatives combined with the Scottish Enlightenment to create innovations in science and engineering, while the enormous growth in British overseas trade protected by the Royal Navy paved the way for the establishment of the British Empire. Domestically it drove the Industrial Revolution, a period of profound change in the socioeconomic and cultural conditions of England, resulting in industrialised agriculture, manufacture, engineering and mining, as well as new and pioneering road, rail and water networks to facilitate their expansion and development.[66] The opening of Northwest England's Bridgewater Canal in 1761 ushered in the canal age in Britain.[67] In 1825 the world's first permanent steam locomotive-hauled passenger railway – the Stockton and Darlington Railway – opened to the public.[67]
+The Nintendo Switch supports a wide array of additional accessories, according to Kimishima. Kimishima suggested that the Switch is part of a large ecosystem of devices, though the Switch unit remains the core console element.[118] Takahashi suggested the possibility of other units besides the Joy-Con that could attach and/or connect to the console to serve as alternate input devices and change how the Switch can be used.[24]
 
-multi-storey square industrial buildings beyond a river
-The Battle of Trafalgar was a naval engagement between the Royal Navy and the combined fleets of France and Spain during the Napoleonic Wars.[68]
-During the Industrial Revolution, many workers moved from England's countryside to new and expanding urban industrial areas to work in factories, for instance at Birmingham and Manchester,[69] with the latter the world's first industrial city.[70] England maintained relative stability throughout the French Revolution, under George III and William Pitt the Younger. The regency of George IV is noted for its elegance and achievements in the fine arts and architecture.[71] During the Napoleonic Wars, Napoleon planned to invade from the south-east; however, this failed to manifest and the Napoleonic forces were defeated by the British: at sea by Horatio Nelson, and on land by Arthur Wellesley. The major victory at the Battle of Trafalgar confirmed the naval supremacy Britain had established during the course of the eighteenth century.[72] The Napoleonic Wars fostered a concept of Britishness and a united national British people, shared with the English, Scots and Welsh.[73]
+Nintendo offers a Joy-Con Wheel, a small steering wheel-like unit that a Joy-Con can slot into, allowing it to be used for racing games such as Mario Kart 8 Deluxe.[51] Standalone docks are available, which include a power adapter and HDMI cable.[51] Third parties also support the Switch with additional accessories, such as carrying cases and screen protectors.[119] The 4.0.0 system update enabled support for GameCube controllers connected via USB with the GameCube adapter that was available for the Wii U as well as a new adapter produced for the Switch; GameCube controllers can be used with most games compatible with the Switch's Pro Controller, such as Super Smash Bros. Ultimate.[120][121][122][123] USB computer keyboards are supported for certain tasks, such as text entry.
 
 
-The Victorian era is often cited as a Golden Age. Painting done by William Powell Frith to show cultural divisions.
-London became the largest and most populous metropolitan area in the world during the Victorian era, and trade within the British Empire – as well as the standing of the British military and navy – was prestigious.[74] Technologically, this era saw many innovations that proved key to the United Kingdom's power and prosperity.[75] Political agitation at home from radicals such as the Chartists and the suffragettes enabled legislative reform and universal suffrage.[76]
+A Nintendo Labo kit simulating a fishing rod and reel
+In January 2018, Nintendo announced Nintendo Labo, a child-oriented platform that combines games coupled with do-it-yourself cardboard projects that attach or wrap around the Switch Console and Joy-Con, effectively creating toys around the Switch hardware to interact with games. These cardboard units, which may also include string, rubber bands, and other pieces, are referred to as Toy-Con. The game software provides instructions for the Toy-Con construction and provides the interface to control the Toy-Con. Such examples given include a remote-controlled "car", where the two Joy-Con attach to the car and their vibration feedback provide the motion for the car, controlled from the Switch, a fishing rod where the Joy-Con are part of the reel and handle of the rod and their motion controls used to simulate the act of fishing in the mini-game, and a small toy piano.[124]
+
+In September 2018, with the release of Nintendo Switch Online, Nintendo introduced NES Controller style Joy-Con controllers alongside its classic games service. In September 2019, when SNES games were added to the service, wireless SNES Controllers were released. In September 2021, when Nintendo 64 games and Sega Genesis titles were added to the service alongside the Expansion Pack, wireless Nintendo 64 Controllers and Sega Genesis Control Pads were released for use with their respective services.
+
+Nintendo released Ring Fit Adventure in October 2019, which includes a Leg Strap to mount a Joy-Con to a leg, and the Ring-Con, a flexible hard plastic ring with Joy-Con mounting. The player interacts with the game, fashioned after a console role-playing game, by doing various exercises, such as running in place, squatting, and squeezing the ring, to perform in-game actions of running, jumping, and attacking and defending, respectively.[125] Such features are part of Nintendo's "quality of life" goals to incorporate physical activity alongside the Switch, similar to past titles like Wii Fit.[126]
+
+In February 2017, Nintendo president Tatsumi Kimishima stated that it had been "studying" virtual reality solutions, but felt that comfort was a main concern. Nintendo of America president and COO Reggie Fils-Aimé also cited that existing VR solutions were not "fun" or "social".[127] Nintendo ultimately unveiled a new Labo VR kit in March 2019, using a cardboard headset and viewer placed in front of the console's screen, in combination with attached accessories.[128][129]
+
+Stands and alternate docks have also been created for the Switch to overcome the limitations of the device's own kickstand for tabletop play, including an official "Adjustable Charging Stand" that can be connected to the device's AC adapter.[130][131]
+
+Technical specifications
+Technical specifications of Nintendo Switch
+System-on-chip	Name
+Nvidia Tegra X1
+Nvidia Tegra X1+[p]
+Process
+20 nm
+16 nm
+CPU	Type
+Quad-core ARM Cortex-A57
+Quad-core ARM Cortex-A53 (disabled)
+ISA	ARMv8-A
+Clock rate	1.02 GHz
+Cache	L1
+A57: 48 kB + 32 kB per core
+A53: 32 kB + 32 kB per core
+L2
+A57: 2 MB
+A53: 512 kB
+GPU	Type	Nvidia GM20B Maxwell-based
+Clock rate	307.2-768 MHz
+Stream processors	256 (157-393 GFLOP/s)
+TMUs	16 (4.9-12.3 GTexel/s)
+ROPs	16 (4.9-12.3 GPixel/s)
+Compute units	2
+Memory	Total	4 GB LPDDR4 SDRAM
+Clock rate	1600 MHz
+Bandwidth	25.6 GB/s
+Storage	Main	Type	eMMC NAND flash memory
+Capacity
+Base model: 32 GB
+OLED model: 64 GB
+Removable	Type	microSD/HC/XC
+Capacity	Up to 2 TB
+Media	Name	Nintendo Switch game card
+Capacity	1–64 GB
+Display	Main	Type
+Base model: LCD screen
+OLED model: OLED screen
+Size
+Base model: 6.2-inch
+Lite model: 5.5-inch
+OLED model: 7-inch
+Resolution
+Base model: 720p (237 ppi)
+Lite model: 720p (267 ppi)
+OLED model: 720p (210 ppi)
+External	Interface	Dock: HDMI 1.4b
+Dock with LAN port: HDMI 2.0
+
+Resolution	1080p, 720p, or 480p
+SoC, CPU, GPU and RAM
+Original Switch models were released with model number "HAC-001". The Switch uses a system-on-chip from the Tegra family of products, developed in partnership with Nvidia.[95][132] No specific details were revealed beyond that it is a "custom" Tegra chip "based on the same architecture as the world's top-performing GeForce gaming graphics cards" that are common in personal computers, and has a custom API known as "NVN", which is designed to "bring lightweight, fast gaming to the masses".[41][133] Takeda described the Nvidia chipset as being critical for delivering gamers a level of performance similar to that which they experience on personal computers, helping to achieve "high performance but low power consumption" for the Switch.[134] Pre-release reports, unconfirmed by either Nintendo or Nvidia, stated that the SoC would be a standard Nvidia Tegra X1 instead, composed of four ARM Cortex-A57 and four ARM Cortex-A53 CPU cores along with 256 Maxwell-based CUDA GPU cores.[135][136] This was later corroborated by an analysis on the console done by Tech Insights in March 2017.[137][138] The CPU cores are clocked at 1.020 GHz. While the SoC features 8 CPU cores, the Switch only uses the 4 64-bit Cortex-A57 cores, of which 1 is reserved to the operating system.[2] The GPU cores are clocked at 768 MHz when the device is docked, and in Handheld mode, fluctuating between the following speeds: 307.2 MHz, 384 MHz, and 460 MHz.[4][3] This gives the Switch's GPU a theoretical peak performance of 393 GFLOPS in TV mode and 236 GFLOPS in Handheld mode.[3] A later iFixit teardown of the final product confirmed 4 GB of LPDDR4.[139] It's clocked at 1600 MHz in TV mode, while at a reduced 1331.2 MHz in Handheld mode.[4]
+
+Wireless compatibility
+The Switch offers Wi-Fi 5 (dual-band 802.11ac wireless connectivity compliant with 802.11 a/b/g/n/ac modes).[132] Up to eight Switch consoles can be connected in a wireless ad hoc network for local multiplayer games, and multiple players can play on each of the connected Switch consoles.[140][41][141] In the case of at least one game, Splatoon 2, ten Switch consoles can connect in the ad hoc network, though only eight can play directly while the other two can watch as spectators.[142] The Switch uses Bluetooth 4.1 for wireless communication between the console and its controllers.[99][132] Users can purchase a third-party USB LAN adapter for wired connectivity when the console is docked for TV mode.[132] Nintendo's Wii LAN adapter accessory is also compatible with the Switch via USB ports on the Switch dock.[143]
+
+Power/battery
+The Switch is primarily powered in Handheld mode by a non-removable 4310 mAh, 3.7 V Lithium-ion rechargeable battery.[98][144][145] The battery life is estimated to be between 2.5 and 6.5 hours, depending on the software being used. Nintendo gives the example of The Legend of Zelda: Breath of the Wild supporting approximately three hours of battery life.[95] The battery can be charged either while in the dock, or through a standard USB-C connector on the console.[49] The estimated recharge time while the unit is in sleep mode is about 3 hours.[109] Nintendo offers the means for replacing batteries through its customer support.[132] Each Joy-Con has its own non-removable 525 mAh, 3.7 V Lithium-ion battery separate from the console, with an estimated twenty-hour lifespan.[99] These batteries are automatically charged if they are attached to the console while it is charging itself. Additional accessories have other means to charge the Joy-Con.[114] While the basic Joy-Con grip that ships with the Switch does not offer charging capabilities, a separate premium Joy-Con grip includes a USB-C connector port that can be used to charge the Joy-Con batteries while they are connected to this grip.[146]
+
+Storage
+The Switch includes 32 GB of internal storage,[95][132] 25.9 GB of which is user-accessible.[147] This can be expanded up to 2 TB using a microSD, a microSDHC or a microSDXC card.[148][132] A microSD card slot is located under the Switch's kickstand, where a microSD card can be inserted.[149] If the microSD card is used, the Switch will only store game save data on the internal memory, leaving data that can be re-acquired on the microSD card.[150] Save data will always be stored on the console, regardless if the source is a physical game card or a digital download copy. At launch, there was no way to transfer save files to another Switch console.[151][152] Save game and profile transfers between Switch consoles were added in the 4.0.0 system update in October 2017,[153] while the 10.0.0 system update in April 2020 allowed most update data, digital games (i.e., downloaded from eShop), and other downloaded content to be swapped between the internal memory and a microSD card.[154] MicroSD and microSDHC were supported initially, and microSDXC card support was later added to the Switch's software via a system update.[109][132] SD cards and miniSD cards do not fit the Switch.[155] The Switch did not support external storage units at launch, but Nintendo stated that they were looking into adding this feature in the future.[150]
+
+Connectivity
+The Switch console has a 3.5 mm headphone jack. At launch, the Switch did not support Bluetooth wireless headphones, though they can also be connected if a Bluetooth adaptor is connected to the headphone jack.[156][157] A system update in October 2017 partially resolved this issue by enabling support for wireless USB headphones when the receiver is connected to the USB port on the console when docked.[158][159] This was later fully resolved in a system update in September 2021 when it enabled support for Bluetooth Wireless headphone devices without the need for a USB adapter.[160]
+
+Later revisions
+Around July 2018, Nintendo quietly released Switch units with minor hardware changes and updated firmware to block exploits in the original Switch models that led to the ability to extract ROM images from game cards and software.[161] Nintendo claimed in its case against Team Xecuter and Gary Bowser in February that this hardware change was specifically the result of Team Xecuter's sales of modified Switch chips that used the exploit.[162]
+
+An updated version of the Nintendo Switch under model number "HAC-001(-01)" was announced on July 17, 2019, and was released in Japan and North America in mid-August 2019, and in the United Kingdom in September 2019. This revision uses the Tegra X1+ SoC, a more efficient chipset compared to the Tegra X1 used in the original model. Thus, the time-on-battery was effectively extended to 4.5–9 hours, depending on the game played. No other system component was updated in this revision.[163][164][165][166][167]
+
+Production
+The Nintendo Switch is produced between Taiwan-based Foxconn and Japan-based Hosiden, with Foxconn accounting for the largest volume.[168] Nintendo did not plan to sell the Switch below manufacturing cost at launch,[169] as they had done for both the 3DS and Wii U at their respective launches;[170] Nintendo affirmed that the Switch would be profitable from launch during its 2016 fiscal year earnings report, as the company saw the console as a key earnings driver for 2017 and beyond.[171] Fomalhaut Techno Solutions, a Japanese product teardown firm, estimated that the Switch cost $257 to make compared to its $299 MSRP, with the console and dock at $167 while each Joy-Con costs $45.[172] Kimishima said that they may be able to see further profitability on the Switch when they can achieve volume discounts on components once they reach a level of about 10 million Switch units.[173]
+
+Prior to launch, Nintendo anticipated shipping two million Nintendo Switch units by the end of the console's first month, and assured that its supply chain would be able to meet demand following the launch period to avoid the shortage situation with the NES Classic Edition in late 2016.[174][89][175] Kimishima anticipated that the Switch will have lifetime sales numbers similar to the Wii, which sold 101 million units by 2016.[91]
+
+Following the initial sales report numbers in April 2017, the Financial Times reported that the company was seeking to produce 18 million Switch units in its 2017 financial year as to avoid "customer tantrums" with poor supply levels, particularly near the 2017 holiday season and the release of Super Mario Odyssey on October 27, 2017.[176] Fils-Aimé said in September 2017 that their 2017 production target for the Switch could be hampered by bottlenecks in individual components.[177][178] DigiTimes reported in October 2017 that Nintendo had further shifted the production rate for the Switch up to 2 million per month, with plans to ship 20 million units by the end of the year; the newspaper also stated that the production rate was limited by component availability, and not by other factors of Nintendo's production process.[168]
+
+On the presentation of the 2017 fiscal year results to investors, Nintendo's newly named president Shuntaro Furukawa stated that they anticipate producing 20 million Switch consoles over the 2018 fiscal year keeping the momentum of its sales in that year.[179]
+
+In June 2019, The Wall Street Journal reported that Nintendo was starting to move some of its production of the Switch and two hardware revisions of the Switch outside of China and into Southeast Asia to limit the impact of new United States tariffs on electronics made in China.[180][181]
+
+In November 2020, Bloomberg reported that Nintendo asked its assembly partners to boost production of the Switch by 20% and raised its target goal of Switch sales for the 2020 fiscal year from 25 million units sold to 30 million units, having previously reportedly raised their target for the fiscal year from 22 million units sold to 25 million units in August 2020.[182][183] These boosts in production have been attributed to more demand mainly due to the success of Animal Crossing: New Horizons during the COVID-19 pandemic.[182][183]
+
+Other models
+Nintendo Switch Lite
+
+The Nintendo Switch Lite integrates the Joy-Con into the main body.
+The Nintendo Switch Lite is a revision of the Switch designed for handheld play released worldwide on September 20, 2019, with an MSRP of US$199.99.[184] First announced in July 2019, the Switch Lite is a single unit, integrating the Joy-Con as part of the main unit's hardware, and uses a smaller screen measuring 5.5 inches (14 cm) diagonally. Additionally, a regular directional pad replaces the four directional buttons on the integrated left Joy-Con. While using a smaller battery than the original Switch, the Switch Lite uses a more power-efficient chipset, the 16-nanometer Tegra X1+, to extend the estimated use time from 2.5 to 6.5 hours to 3–7 hours on a single battery charge.[163]
+
+According to The Wall Street Journal, Nintendo's goal with the Switch Lite was to produce a sub US$200 unit, aimed at casual gamers, to compete with gaming services that do not require a dedicated device. To achieve this, Nintendo negotiated on reduced prices from its component suppliers. Further, the Journal stated that Nintendo had gained Murata Manufacturing as a battery supplier in addition to TDK, to lower costs by causing competition between the two companies.[184]
+
+The Switch Lite normally only supports games that can be played in handheld mode, retaining features like the Switch's gyroscopic sensors, Bluetooth, Wi-Fi, and NFC compatibility. Some tabletop games that require the HD Rumble or IR camera features, such as 1-2-Switch, require players to use separate Joy-Con controllers with the Switch Lite. The system does not support any docking or connectivity to a television and is thus incompatible with games that require television mode. Players who attempt to purchase games that require television or tabletop mode via the eShop on the Switch Lite will be notified of the incompatibility. Though not included with the system, the Switch Lite does support external controllers otherwise compatible with standard Switch models, such as standalone Joy-Con controllers, though they cannot be docked to the system.[185][186] Some controllers, such as GameCube controllers, work with the system, but require extra adapters, as the normal GameCube to Switch adapter uses the USB ports on the full-size Switch's dock.[187][188]
+
+OLED model
+
+The Nintendo Switch – OLED Model features a larger OLED display, a metal body and a redesigned kickstand.
+On July 6, 2021, Nintendo officially announced a new model called the Nintendo Switch – OLED Model. The OLED model features a 7-inch (180 mm) 720p OLED display, and when docked, output to 1080p resolution similar to the original model. Additionally, it features 64GB of internal storage, enhanced audio functions, a magnesium alloy body and a wider adjustable stand for use in tabletop mode. The unit ships with a new dock that includes a wired LAN port.[112] It features similar technical specifications as the base Switch model, and is compatible with all Switch games and existing accessories.[189] The unit ships in two bundles: one that includes a black dock and red and blue Joy-Con (similar to the base model's default color scheme), and one that includes a white dock and white Joy-Con. It was released on October 8, 2021, alongside the release of Metroid Dread, with a retail price of $349.99.[112] Ahead of the release of the OLED version on September 13, 2021, Nintendo reduced the base price of the original Switch model in Europe from €329.99 to €299.99, and in the UK from £279.99 to £259.99, which Nintendo said also reflected changes in currency exchange rates.[190] All other regions – including North America and Australia – did not receive a price cut.[191] Four special-edition models were released: those for Splatoon 3,[192] Pokémon Scarlet and Violet,[193] The Legend of Zelda: Tears of the Kingdom,[194] and a "Mario Red Edition" to tie into Super Mario Bros. Wonder.[195]
+
+Rumored high-end model
+"Nintendo Switch Pro" redirects here. Not to be confused with the OLED model or Nintendo Switch Pro Controller.
+In early 2019, reports from The Wall Street Journal and The Nikkei claimed that Nintendo had plans for two new models of the Nintendo Switch. One new model was a lightweight revision, later revealed as the Nintendo Switch Lite; the other was to be a more powerful console to be released in 2020.[196][197] A notification from Nintendo alerting the Federal Communications Commission of changes to the Switch's hardware in July 2019 were used as further evidence for a new model.[198] DigiTimes later corroborated previous reports, claiming Nintendo planned to release a model with an improved CPU and magnesium alloy body in the second half of 2020[198]—in December 2019, Nintendo denied any intent to release a new model in 2020,[199] and the global chip shortage beginning in 2020 impacted console production regardless.[200] Bloomberg continued to state Nintendo was preparing to release a higher-end Nintendo Switch model with an OLED screen and the ability to output a 4K resolution, and the model would release in late 2021.[201][202][203][204] However, Nintendo announced the Nintendo Switch OLED model in July 2021.[205][112] Nintendo of America president Doug Bowser said that Nintendo aims to use technology to enhance gameplay, and does not create "technology for technology's sake".[206] Bloomberg again stated that a higher-end Switch was in development, and other upgrades were scrapped in favor of only the OLED screen in light of the chip shortage.[207] In response, Nintendo said that the report was "not true" and made false claims about the company.[208] Zynga—one company named by Bloomberg as having received a development kit of an upgraded Nintendo Switch model—also denied the factuality of the report.[208] Continued rumors of a high-end model were fueled by a leak of Nvidia's source code showing a custom chip with DLSS support made for Nintendo.[209] In December 2022, Digital Foundry claimed that any upgraded Nintendo Switch model was no longer in development, and that Nintendo instead is focusing on the system's successor.[210]
+
+Rumored successor console
+Industry rumors of a new console emerged in July 2023, as several of Nintendo's development partners reported on receiving development kits for this new system.[211] Nintendo has alluded to a successor console, such as retaining the use of Nintendo Accounts, but has avoided affirming any details on a new console.[212]
+
+Eurogamer, among other sources, learned from insiders that Nintendo demonstrated features of the new console at Gamescom 2023 behind closed doors to developers.[213] In mid-2023, document discovery in the FTC v. Microsoft case revealed that Activision was briefed about the "Switch NG" (NG for next generation) in late 2022, with its performance stated to be similar to the PlayStation 4 and Xbox One.[214]
+
+The new console's alleged system on a chip, the Nvidia Tegra T239 (codenamed "Drake") was leaked in the 2022 Nvidia ransomware attack by Lapsus$, and features an octa-core ARM Cortex-A78C CPU, a 12 SM Ampere GPU, and a 128-bit LPDDR5 memory interface.[215] Sharp Corporation stated they had been providing Nintendo LCD screens for the new console since mid-2023, and technology analysis firm Omdia stated these were likely to be 8-inch screens.[216] Other reports stated the new console will have DLSS and ray tracing integration, and that developers have been shown tech demos running on targeted hardware, namely The Legend of Zelda: Breath of the Wild at 4K resolution and a frame rate of sixty frames per second, as well as Epic Games' The Matrix Awakens tech demo for Unreal Engine 5.[217] The new console is expected to have backward compatibility with Switch games, including those on cartridge and those distributed digitally, with some games, such as Breath of the Wild, supported with enhanced capabilities to take advantage of the new console hardware.[218]
+
+Early rumors claimed the new system was to be released in late 2024, with Nintendo working with its partners to assure high volumes of product at launch.[211] Altec Lansing had issued a press release in January 2024 that claimed the Switch successor would be out in September 2024, which their social media later claimed was just a guess.[219] An analyst for Japan-based Kantan Games stated in January 2024 that the "pro" model of the Switch should be seen as an iteration of the Switch console rather than a revolution from it, and likely would be priced at $400 with new games costing $70.[220] However, by February 2024, sources had stated Nintendo had told partners that its release was pushed into early 2025,[221][222][223] with sources speaking to The Nikkei that this was for Nintendo to have sufficient supply and combat scalping.[224]
 
