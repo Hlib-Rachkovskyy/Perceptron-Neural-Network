@@ -4,55 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1b19992-f05c-49f5-a2fb-1aac85c5eb2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/EN/pl1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/PL/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/PL/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/PL/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/PL/4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/PL/5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/PL/6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/PL/7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/PL/8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/PL/9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/PL/pl1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training/PL/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training/PL/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training/PL/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training/PL/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training/PL/4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training/PL/5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training/PL/6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training/PL/7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training/PL/8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Training/PL/9.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PL/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PL/10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PL/2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PL/3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PL/4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PL/5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PL/6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PL/7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PL/8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PL/9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/EN/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/EN/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/EN/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/EN/2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/EN/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/EN/3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/HR/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/HR/hr1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/HR/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/HR/8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training/EN/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training/EN/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training/EN/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training/EN/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training/EN/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training/EN/7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/EN/7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training/HR/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/HR/HR1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training/HR/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training/HR/8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Perceptron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Perceptron.java" afterDir="false" />
-    </list>
+    <list default="true" id="c1b19992-f05c-49f5-a2fb-1aac85c5eb2e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +117,7 @@
       <workItem from="1713424862015" duration="7117000" />
       <workItem from="1713438079842" duration="5373000" />
       <workItem from="1713444142900" duration="12725000" />
-      <workItem from="1713463458716" duration="7824000" />
+      <workItem from="1713463458716" duration="7866000" />
     </task>
     <servers />
   </component>
