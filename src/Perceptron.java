@@ -1,42 +1,70 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.stream.Stream;
 
 public class Perceptron {
     ArrayList<String> dataToLearn;
     ArrayList<String> dataToPredict;
 
-    public Perceptron(String language){
-        dataToLearn = new ArrayList<>();
-        dataToPredict = new ArrayList<>();
+    private double[] weights;
+    public Perceptron(){
+
+        this.weights = new double[26];
+        this.dataToLearn = new ArrayList<>();
+        this.dataToPredict = new ArrayList<>();
+        for (int i = 0; i < 26; i++){
+            this.weights[i] = Math.random() -0.5;
+        }
     }
-
-    public double[] makeMagic(ArrayList<String> data){
-        double[] wages = new double[26];
-        Arrays.fill(wages,0.0);
-
-        for (String text : data) {
-            for (String s : text.split("")) {
-                if (!s.isEmpty()) {
-                    char character = s.toLowerCase().charAt(0);
-                    if (96 < character && character < 123) {
-                        int value = character - 97;
-                        wages[value]++;
-                        System.out.println((int) character + " " + s);
-                    }
-                }
+    public void test() {
+        int counter = 0;
+        for (String text : dataToPredict) {
+            double[] testData = Service.createData(text);
+            if (predict(testData) == 1) {
+                counter++;
             }
         }
-        System.out.println(Arrays.toString(wages));
 
-        return wages;
+        System.out.println(counter + " of " + dataToPredict.size() + " tests passed");
+    }
+    public void PerceptronTrainingFromData(){
+        int counter;
+        do {
+            for (String trainText : dataToLearn) {
+                double[] dataForPerceptron = Service.createData(trainText);
+                train(dataForPerceptron, 1);
+            }
+
+            counter = 0;
+            for (String text : dataToLearn) {
+                double[] testData = Service.createData(text);
+                if (predict(testData) == 1) {
+                    counter++;
+                }
+            }
+        } while (counter != dataToLearn.size());
+        System.out.println(Arrays.toString(weights));
     }
 
-    public void getLearningData(String data){
-        dataToLearn.add(data);
+
+    public void train(double[] dataToTrain, int iterations){
+        for (int i = 0; i < iterations; i++){
+            double prediction = predict(dataToTrain);
+            double error =  1 - prediction;
+            for (int j = 0; j < weights.length; j++){
+                double alpha = 0.2;
+                double delta = alpha * error * dataToTrain[j];
+                this.weights[j] += delta;
+            }
+        }
     }
 
-    public void getTestData(String data){
-        dataToPredict.add(data);
+    public double predict(double[] input){
+        double ans = 0;
+        for (int i = 0; i < input.length; i++){
+            ans += weights[i] * input[i];
+        }
+
+        return ans > 0 ? 1.0 : 0.0;
     }
+
 }

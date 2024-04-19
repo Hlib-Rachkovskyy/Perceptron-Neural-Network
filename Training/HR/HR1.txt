@@ -1,0 +1,54 @@
+Matematika (od grčkog μάθημα (máthēma) 'znanost') egzaktna je (točna, nedvojbena) znanost koja izučava aksiomatski definirane apstraktne strukture koristeći se matematičkom logikom. Matematika se rabi gdje se god pojavljuju pitanja vezana za veličinu, strukturu, prostor ili promjenu. U početku vezana uz trgovinu i mjerenje zemljišta, kasnije astronomiju, a danas uz mnoga područja života. Matematika se uči u osnovnim i srednjim školama kao obvezan predmet. Veliki dio fakulteta također ima obavezne i izborne matematičke kolegije.
+
+Povijest i razvoj
+Antika, srednji i novi vijek
+
+Majanski brojevni sustav.
+Matematika se počela razvijati prije više tisuća godina, još u doba starih Egipćana. Poslije se proširila u Grčku i grčko-rimski svijet. Osim toga, aktivno se razvijala u Kini i Japanu. Razvila se iz potrebe da se obavljaju proračuni u trgovini, mjerenja zemljišta i predviđaju astronomski događaji. Ove tri primjene mogu se dovesti u vezu s grubom podjelom matematike na izučavanje strukture, prostora i izmjena. Fundamentalnu knjigu za razvoj matematike, "Elementi", napisao je grčki matematičar Euklid. Knjiga ima 12 svezaka. To je prva knjiga pisana stilom koji je danas poznat kao (egzaktni) matematički: definicija - aksiom - teorem - dokaz. Knjiga je, zbog tadašnjeg nedostatka simbola pisana u potpunosti riječima, što danas, naravno, nije slučaj. Proučavanje geometrijskih prostora je, u pravom smislu te riječi, počelo kada je Euklid postavio svojih pet aksioma o prostoru. Takav prostor se danas zove euklidski prostor, no tijekom mnogo godina su se razvili i neeuklidski prostori te još mnogi drugi.
+
+ Podrobniji članak o temi: Indijska matematika
+Suvremena matematika
+Iako je matematika znanost koja je tradicionalno povezana s tehničkim znanostima i fizikom, zadnjih smo desetljeća svjedoci prodora matematike u ekonomiju, medicinu i ostale znanosti. Tome treba pridodati i nagli razvoj informatičkih tehnologija u koje je matematika uključena od samih početaka. Godišnje se prijavi oko 200 000 novih matematičkih teorema, a na raznim razinama znanja i stručnosti postoji preko 1600 časopisa koji objavljuju matematičke materijale. Današnja matematika je podosta napredna, u svim smjerovima, a ljudi koji se bave modernom matematikom su usko specijalizirani i nečesto bave stvarima koje su nemamtematičarima izvanrazumske. Ipak, postoje goleme primjene. Krajem četrdesetih godina prošlog stoljeća John von Neumann je procijenio da bi obrazovani matematičar mogao raspolagati s oko 10% osnovnih znanja cijele matematike do tada poznate. Do danas se taj postotak značajno smanjio. Za razliku od rane, istočnjačke i zapadnjačke izolacije, današnja matematika je ujedinjena.
+
+Podjela
+Osnove matematike sadrže izučavanje strukture, prostora i promjenu.
+
+Strukture
+Izučavanje strukture počinje s brojevima, u početku s prirodnim brojevima i cijelim brojevima.
+
+Skup prirodnih brojeva = N
+
+Skup prirodnih brojeva i 0 = N0
+
+Skup cijelih brojeva = Z
+
+Skup racionalnih brojeva = Q
+
+Skup iracionalnih brojeva = I
+
+Skup realnih brojeva = R
+
+U = Unija (za skupove zbrajanje)
+
+N U 0 = N0
+
+N0 U {negativni cijeli brojevi} = Z
+
+Z U {razlomci i decimalni brojevi} = Q
+
+Q U I = R
+
+Osnovna pravila za aritmetičke operacije su definirana u osnovnoj algebri, a dodatna svojstva cijelih brojeva se izučavaju u teoriji brojeva. Izučavanje metoda za rješavanje jednadžbi je dovelo do razvoja apstraktne algebre, koja između ostalog izučava prstenove i polja, strukture što poopćuju svojstva koja posjeduju brojevi.
+
+Fizikalno važan koncept vektora i matrica se proučava u linearnoj algebri.
+
+Prostor
+Proučavanje prostora zovemo geometrija. Najstarija grana je euklidska geometrija (uključujući planimetriju, stereometriju i, kasnije euklidsku geometriju u višedimenzionalnom prostoru; pitanje geometrije trokuta dovelo je do specijalizacije, tzv. trigonometrije). U 19. stoljeću otkrivene su tzv. neeuklidske geometrije, kao što su sferna geometrija i hiperbolne geometrije (među kojima najprije geometrija Lobačevskoga i Bolyaija, koja ima centralnu ulogu u specijalnoj relativnosti, a poopćenja (Lorentzove mnogostrukosti) u općoj relativnosti. Euklidska geometrija u suvremenom pristupu formulira se pomoću pojma afinog prostora, što je skup na kojem neki realni konačno-dimenzionalni vektorski prostor djeluje slobodno i tranzitivno, pri čemu je na tom vektorskom prostoru zadan skalarni umnožak (nedegenerirana pozitivno semidefinitna simetrična bilinearna forma s vrijednostima u skupu realnih brojeva). Skalarni umnožak inducira normu vektora (kao korijen skalarnog unoška vektora sa samim sobom), dakle udaljenost u Euklidskom prostoru i dobro definiran pojam mjere kuta. Teorija grupa izučava koncept simetrije pa se među ostalim, pojavljuje u izučavanju veze prostora s drugim strukturama. Felix Klein je 1872. u svom erlangenskom programu postulirao da se različiti tipovi geometrija uvedu i klasificiraju s obzirom na grupu simetrija prostora koja taj prostor čini homogenim prostorom. Élie Cartan je kasnije generalizirao Kleinove homogene prostore uz pomoć pojma (Cartanove) koneksije (Cartanove geometrije). Suvremena geometrija uključuje grane kao što su metrička geometrija, diferencijalna geometrija (s važnim dijelovima kao što su Riemannova, pseudo-Riemannova, Kaehlerova, simplektička i Finslerova geometrija), algebarska geometrija (čije povijesne preteće su klasična projektivna geometrija i koordinatni pristup u geometriji), geometrija analitičkih prostora, geometrija singulariteta (osobitosti), izučavanje beskonačno-dimenzionalnih prostora te u najnovije doba nekomutativna geometrija i tropska geometrija. Mnogi novi tipovi prostora motivirani su izučavanjima u teorijskoj fizici, uključujući integrabilne sustave, teoriju baždarskih polja, konformnu teoriju polja, topološku teoriju polja, problem kvantizacije, teoriju gravitacije i teoriju superstruna. Aritmetička geometrija je dio algebarske geometrije koji se bavi geometrijskim objektima koji se pojavljuju u teoriji brojeva.
+
+Topologija promatra ona svojstva prostora koja se ne mijenjaju kod neprekidnih transformacija kao što su rastezanja i skupljanja. U topološkim razmatranjima pažnja se posvećuje dakle izučavanju pojmova neprekinutosti i granice. Topološki prostori su najvažniji od više raznih struktura koje su razvijene kao apstrakcija topoloških svojstava prostora.
+
+Promjene
+Razumijevanje i opisivanje promjena mjerljivih varijabli je glavna značajka prirodnih znanosti, i diferencijalni (infinitezimalni) račun je razvijen u te svrhe. Centralni koncept kojim se opisuje promjena varijable je funkcija. Mnogi prirodni problemi su vodili uspostavljanju veze između vrijednosti i količine izmjene, a pritom razvijene metode izučavaju se u diferencijalnim jednadžbama. Brojevi koji predstavljaju kontinualne veličine su realni brojevi, a detaljno izučavanje njihovih svojstava i funkcija je predmet matematičke analize. Zbog unutrašnjih, matematičkih, razloga uveden je koncept kompleksnih brojeva, koji je glavni predmet izučavanja kompleksne analize. Funkcionalna analiza je usredotočena na n-dimenzionalne prostore funkcija postavljajući time neke od primjenjivih osnova i za izučavanje kvantne mehanike.
+
+Napomena
+Radi razjašnjavanja i izučavanja osnova matematike, razvijena su područja teorija skupova, matematička logika i teorija modela Aritmetika daje važnost brojevima, algebra rješavanju jednadžbi, dok geometrija objašnjava osobine i odnose figura u prostoru. Matematika se gradi i na samoj sebi. Geometrija na aritmetici i algebri; na njima diferencijalni i integralni račun. Topologija je pak izdanak geometrije, teorije skupova i algebre. Diferencijalne jednadžbe se grade na diferencijalnom i integralnom računu, topologiji i algebri. Matematika bi se mogla okarakterizirati kao čvrsto stablo u rastu: s deblom, granama i lišćem.

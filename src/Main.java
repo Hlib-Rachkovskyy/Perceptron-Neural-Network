@@ -3,52 +3,80 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Main {
+    private static Map<String, ArrayList<String>> perceptronLanguagesTest = new HashMap<>();
+    private static Map<String, ArrayList<String>> perceptronLanguagesTrain = new HashMap<>();
     private static Map<String, Perceptron> perceptronLayer;
     public static void main(String[] args) {
         perceptronLayer = new HashMap<>();
-        findData("Test");
-        for (Perceptron perceptron : perceptronLayer.values()) {
-            perceptron.makeMagic(perceptron.dataToLearn);
+        perceptronLanguagesTest = new HashMap<>();
+        perceptronLanguagesTrain = new HashMap<>();
+        findData();
+        for (String language : perceptronLayer.keySet()) {
+            perceptronLayer.get(language).dataToLearn = perceptronLanguagesTrain.get(language);
+            perceptronLayer.get(language).dataToPredict = perceptronLanguagesTest.get(language);
+            perceptronLayer.get(language).PerceptronTrainingFromData();
+            perceptronLayer.get(language).test();
         }
     }
 
     public static void createPerceptron(String language){
-        perceptronLayer.put(language, new Perceptron(language));
+        Perceptron p = new Perceptron();
+        perceptronLayer.put(language, p);
+        perceptronLanguagesTrain.put(language, new ArrayList<String>());
+        perceptronLanguagesTest.put(language, new ArrayList<String>());
     }
 
-    public static double[] findData(String dataFor){
+    public static void findData(){
         try {
-            Files.walkFileTree(Paths.get("Data/" + dataFor), new SimpleFileVisitor<Path>() {
+            Files.walkFileTree(Paths.get("Training/"), new SimpleFileVisitor<Path>() {
                 @Override
                 public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) throws IOException {
-                    System.out.println("Directory: " + dir.getFileName());
-                    if (!(dir.getFileName().toString().equals("Test") || dir.getFileName().toString().equals("Training"))) {
+                    if (!(dir.getFileName().toString().equals("Training"))) {
                         createPerceptron(dir.getFileName().toString());
                     }
-                    System.out.println(perceptronLayer);
                     return FileVisitResult.CONTINUE;
                 }
 
                 @Override
                 public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-                    //System.out.println("File: " + file.getParent().getFileName());
+
                     BufferedReader br = new BufferedReader(new FileReader(file.toFile()));
                     String a;
                     String s = "";
                     while(( a = br.readLine()) != null) {
                         s += a;
                     }
-                    perceptronLayer.get(file.getParent().getFileName().toString()).getLearningData(s);
+                    if (file.getParent().getParent().getFileName().toString().equals("Training")) {
+
+                        perceptronLanguagesTrain.get(file.getParent().getFileName().toString()).add(s);
+                    }
+                    return FileVisitResult.CONTINUE;
+                }
+
+            });
+
+            Files.walkFileTree(Paths.get("Test/"), new SimpleFileVisitor<Path>() {
+                @Override
+                public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) throws IOException {
                     return FileVisitResult.CONTINUE;
                 }
 
                 @Override
-                public FileVisitResult visitFileFailed(Path file, IOException exc) throws IOException {
-                    System.err.println("Failed to visit file: " + file);
+                public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
+                    BufferedReader br = new BufferedReader(new FileReader(file.toFile()));
+                    String a;
+                    String s = "";
+                    while((a = br.readLine()) != null) {
+                        s += a;
+                    }
+                    if (file.getParent().getParent().getFileName().toString().equals("Test")) {
+                        perceptronLanguagesTest.get(file.getParent().getFileName().toString()).add(s);
+                    }
                     return FileVisitResult.CONTINUE;
                 }
             });
@@ -57,6 +85,5 @@ public class Main {
         }
 
 
-        return null;
     }
 }
