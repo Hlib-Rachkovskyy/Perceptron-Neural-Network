@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
@@ -22,10 +23,35 @@ public class Main {
             perceptronLayer.get(language).PerceptronTrainingFromData();
             perceptronLayer.get(language).test();
         }
+        try {
+            while (true) {
+
+                String input;
+                String text = "";
+                BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+                while (!(input = br.readLine()).equals("STOP") ) {
+                    text += input;
+                }
+
+                for (Perceptron perceptron : perceptronLayer.values()) {
+                    Data data = Service.createData(text);
+                    if (perceptron.predict(data.array) == 1) {
+                        System.out.println(perceptron.language);
+                        System.out.println("Skutecznosc tekstu dla jezyka " + perceptron.language + " " +  data.math(data.skutecznosc, perceptron.dataForTainLanguages) + "%");
+
+                    }
+                }
+
+
+            }
+        }catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
     public static void createPerceptron(String language){
-        Perceptron p = new Perceptron();
+        Perceptron p = new Perceptron(language);
         perceptronLayer.put(language, p);
         perceptronLanguagesTrain.put(language, new ArrayList<String>());
         perceptronLanguagesTest.put(language, new ArrayList<String>());

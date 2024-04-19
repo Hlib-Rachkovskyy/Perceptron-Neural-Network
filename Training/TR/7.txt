@@ -1,0 +1,12 @@
+Türkçedeki geçmiş zaman işlevi iki ayrı ek ile yapılır. Bunlardan ilki, görülen geçmiş zaman olarak, bir eylemin artık sona ermiş olduğunu anlatmak için, şu an itibarıyla anlamındaki "Di" sözcüğünün bir sonek haline gelmesiyle -dı, -di, -du, -dü; -tı, -ti, -tu, -tü şekilleriyle yapılır. ve ikincisi öğrenilen geçmiş zaman olarak haberdar etmek anlamındaki "Muş-mak" fiilinin bir sonek haline gelmesiyle -mış, -miş, -muş, -müş şekilleriyle yapılır. Bu şekil çokluğunun nedeni Türkiye Türkçesinde ileri düzeydeki ünlü ve ünsüz uyumudur. (Örneğin, gel- eylemine -di eklenip geldi oluşturulurken, git- eylemine -ti eklenip gitti kurulur. Bu örneklerin ilkindeki “l” ünsüzü “d”yi kabul ederken, “e” ünlüsü de “i”yi kabul etmiştir. İkinci örnekteki “t” ünsüzü ise d yerine “t”yi kabul etmekte ve “i” ünlüsü de “i”yi kabul ederek eklenmektedir.)
+
+Öğrenilen geçmiş zaman (-mış, -miş, -muş, -müş) tümceye öğrenilmişlik, duyulmuşluk, haberdar edilmişlik anlamı katmaktadır. Görülen geçmiş zamanda (-dı, -di, -du, -dü; -tı, -ti, -tu, -tü) ise tümceye görülen bir sonuç bilgisi vermektedir. Zaman ekinden sonra kişi eki gelir: de-di-m, yetiş-ti-k, sor-du-lar vb.[106]
+
+Şimdiki zaman
+Türkiye Türkçesinde şimdiki zamanlı bir tümce kurabilmek için eylem kökünün sonuna “-yor” eki getirilir. Geniş Türkçe coğrafyası içinde yalnızca Türkiye Türkçesinde bulunan bu ek, tarihî nedenlerden ötürü tek şekillidir (sadece -yor): geliyor, bakıyor, düşüyor, soruyor vb.
+
+Bu ek aslında bir ek değildir. İlk Türkçe bu ek "yor-mak" fiilinden gelen ve o an için hangi eylemle uğraşıldığını anlatmak için kullanılan bir ektir. Örneğin "geliyorum" demek için "kel-i yorur-u-men" derlerdi. Burada "kel-", "gel-" anlamında, "i" "hakkında" anlamında, "u" "işaret zamiri" olarak ve "men" ise "ben" anlamındadır. Zaman için çok kullanılan bu yapı Türkçenin sondan eklemeli olması nedeniyle ekleşmiştir. Ancak her zaman "-yor" biçiminde kalır.[52]
+
+“-yor” eki, eylemlerden sonra gelirken, ekle eylem arasına, kalın-ince durumuna göre "hakkında" anlamında bir yardımcı ses alır: gel-i-yor, dur-u-yor vb. Ünlü ile biten eylemlerde, bu ünlü harf yardımcı sese dönüşür. Bu tür durumda yalnızca ek okunur: de-i-yor > diyor, başla-ı-yor > başlıyor, susa-ı-yor > susuyor vb.
+
+Bu şimdiki zaman eki, hem şekli hem kullanım tarzı açısından, Türkiye Türkçesinde ayrıklı bir özelliğe sahiptir. Zaman ekinden sonra kişi eki gelir: seslen-i-yor-uz, dur-u-yor-um vb.[106]
