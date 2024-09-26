@@ -1,0 +1,33 @@
+modelinde kullanılmıştır. 5 Nisan 2017'de Ubuntu Touch projesine artık yatırım yapılmayacağı, projenin sona ereceği duyurulmuştur.[11]
+
+Ubuntu sözcüğü, Zulu dilinde "insanlık" anlamına gelir, aynı zamanda "başkalarına karşı merhametli, şefkatli, iyiliksever" olmak gibi insani değerlerin temel alındığı bir dünya görüşüdür.[12] Buradan hareketle Ubuntu, İnsanlık için Linux (Linux For Human Beings) sloganını kullanır.
+
+Tarihçe
+
+Ubuntu Projesi'nin kurucusu Mark Shuttleworth
+Linux, sunucu pazarında 2004 yılına kadar zaten geniş bir yer edinmişti ancak özgür yazılım, bilgisayar kullanıcıları için günlük yaşamın bir parçası haline gelememişti. Bu nedenle Mark Shuttleworth Linux tabanlı Debian projesinde çalışan geliştiricilerden küçük bir grup oluşturarak kullanımı kolay Ubuntu Linux masaüstü sistemini oluşturmuştur.[2]
+
+Debian Linux dağıtımı temel alınarak yola çıkılan ilk Ubuntu sürümü, 20 Kasım 2004 tarihinde yayımlanmıştır. O zamandan beri her 6 ayda bir yeni sürüm yayımlanmaktadır.
+
+MEPIS, Xandros, Linspire, Progeny ve Libranet gibi diğer Debian tabanlı işletim sistemlerinin aksine Ubuntu, Debian'ın felsefesine sadık kalmış ve özgür bir yazılım olarak yoluna devam etmiştir.
+
+Mark Shuttleworth, 8 Temmuz 2005'te, Ubuntu'nun uzun vadede geleceğinin korunması ve gelişiminin sürdürülebilmesi için Ubuntu Vakfı'nı kurmuştur ve başlangıç fonu olarak 10 milyon dolarlık bir bağışda bulunmuştur.[13][14]
+
+Ubuntu logosu ilk sürümden beri değişmemiştir. Elde çizilmiş ve şimdi ubuntu-title adlı bir yazıtipi olan bu logo, Andy Fitzsimon tarafından yapılmıştır. Logoda işlenen tema, insanlar arasındaki eşitliğe ve kardeşliğe dikkat çekmektedir. Ubuntu logosu, el ele tutuşmuş insanları temsil eder. Ubuntu 10.04 Lucid Lynx sürümüyle birlikte logo güncellenerek yeniden tasarlanmıştır.
+
+Ubuntu paketlerinin çoğunluğu Debian tasarısının kararsız bölümünden derlenir. Ubuntu ve tüm resmi türevleri .deb paketleri ve APT/Synaptic tabanlı paket yöneticisi kullanır.
+
+Ubuntu tasarısı, paketlerle ilgili bazı konularda Debian ile ortak çalışmaktadır. Ubuntu'ya yüklenen paketler Debian'ın kararlılık seviyesi için bir deneme ortamı yaratmaktadır. Öte yandan Ubuntu ve Debian çok sayıda kişi tarafından yeterince beraber çalışmamakla suçlanmaktadır; zira Ubuntu .deb'leri ve Debian .deb'leri birbiriyle uyumlu değildir. Her ne kadar çok sayıda Debian geliştiricisi aynı zamanda Ubuntu'nun gelişimine yardım ediyor olsa da Debian'ın kurucusu Ian Murdock, Ubuntu'nun ayrı bir proje olduğunu ve Debian ile yeterince ortak noktaya sahip olmadığını belirtmiştir.
+
+Ubuntu, 11.04 sürümüne kadar GNOME arayüzünü kullanmış, bu sürümle birlikte GNOME masaüstü ortamına, Ubuntu'ya özgü Unity kabuğu eklenmiştir. Ancak 2018 Nisan ayında çıkması planlanan Ubuntu 18.04 sürümünde Unity yerine tekrar GNOME arayüzüne dönüş yapılacağı duyurulmuştur.[11] Yine aynı duyuru ile Ubuntu Touch, Mir görüntüsü sunucusu ve Unity projelerine son verileceği bildirilmiştir.
+
+Özellikler
+Ubuntu, başta Linux işletim sistemi çekirdeği olmak üzere, çok sayıda yazılım paketinden oluşmaktadır. Büyük çoğunluğu bir özgür yazılım lisansı altında dağıtılan bu bileşenler içinde tek istisna, bazı özel donanım sürücüleridir.[15] Ubuntu'da kullanılan ana lisans, GNU Genel Kamu Lisansı (GNU GPL) ile birlikte GNU Kısıtlı Genel Kamu Lisansı (GNU LGPL)'dır. Bu özgür lisanslar, yazılımın kullanıcısına ve yazılımın kodlarını kullanmak isteyen kimselere kopyalama, dağıtma, üzerinde çalışma, değiştirme, geliştirme gibi çeşitli hak ve özgürlükler vermektedir.
+
+Ubuntu ile birlikte LibreOffice ofis seti, Mozilla Firefox İnternet tarayıcı, Mozilla Thunderbird e-posta istemcisi gibi yaygın kullanılan özgür yazılım araçlarının yanı sıra müzik çalar, video oynatıcı, sohbet iletişim aracı, CD/DVD yazdırıcı, PDF görüntüleyici, çeşitli hafif oyunlar (örneğin, sudoku ve satranç gibi) gibi geniş bir yazılım yelpazesi yüklü olarak gelmektedir. Ayrıca Ubuntu Software arayüzü üzerinden Ubuntu paket depolarında yer alan binlerce yazılım ücretsiz olarak kolayca indirilip kullanılabilir.
+
+Ubuntu aynı zamanda canlı sistem (DVD/USB) özelliklidir. Bir başka deyişle, Ubuntu bilgisayara kurulmadan, bilgisayarınızdaki mevcut işletim sistemine ve belgelere zarar vermeden doğrudan DVD ya da USB bellek üzerinden çalıştırılarak denenebilir. Böylece kullanıcılar Ubuntu'yu kurmadan Ubuntu'nun genel işleyişi hakkında fikir sahibi olabilirler ve donanım uyumluluklarını kontrol edebilirler.
+
+Ubuntu'nun sistem kurulum aracı olan Ubiquity yükleyicisi, kullanıcının canlı sistem ortamını terk etmeden Ubuntu kurulumuna başlatıp tamamlamasına da olanak vermektedir.
+
+UNIX ve Linux tabanlı sistemlerde bu sistemlerin mimarisinden kaynaklanan nedenlerle virüslerin bilgisayarlar arasında yayılması çok güçtür. Ubuntu Linux mimarisini kullanarak bu korunaklı ortamı kullanıcılara aynen sunmaktadır

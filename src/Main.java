@@ -1,17 +1,17 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Main {
     private static Map<String, ArrayList<String>> perceptronLanguagesTest = new HashMap<>();
     private static Map<String, ArrayList<String>> perceptronLanguagesTrain = new HashMap<>();
     private static Map<String, Perceptron> perceptronLayer;
+    private static Scanner scanner = new Scanner(System.in);
+
+
     public static void main(String[] args) {
         perceptronLayer = new HashMap<>();
         perceptronLanguagesTest = new HashMap<>();
@@ -23,30 +23,37 @@ public class Main {
             perceptronLayer.get(language).PerceptronTrainingFromData();
             perceptronLayer.get(language).test();
         }
-        try {
-            while (true) {
 
-                String input;
-                String text = "";
-                BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-                while (!(input = br.readLine()).equals("STOP") ) {
-                    text += input;
-                }
+        while (true) {
+            System.out.println("Enter text for prediction or \"exit\" to end program:");
+            String text = scanner.nextLine();
 
-                for (Perceptron perceptron : perceptronLayer.values()) {
-                    Data data = Service.createData(text);
-                    if (perceptron.predict(data.array) == 1) {
-                        System.out.println(perceptron.language);
-                        System.out.println("Skutecznosc tekstu dla jezyka " + perceptron.language + " " +  data.math(data.skutecznosc, perceptron.dataForTainLanguages) + "%");
-
-                    }
-                }
-
-
+            if (text.equalsIgnoreCase("exit")) {
+                System.out.println("Exiting...");
+                break;
             }
-        }catch (IOException e) {
-            e.printStackTrace();
+
+            predictText(text);
         }
+    }
+
+    public static void predictText(String text) {
+
+        HashMap<String, Double> language = new HashMap<>();
+
+        for (Perceptron perceptron : perceptronLayer.values()) {
+
+            Data data = Service.createData(text);
+            language.put(perceptron.language, perceptron.predict(data.array));
+        }
+
+        var maxEntry = language.entrySet()
+                .stream()
+                .max(Map.Entry.comparingByValue());
+
+        maxEntry.ifPresent(LanguagesMap -> {
+            System.out.println("Predicted language " + LanguagesMap.getKey());
+        });
 
     }
 

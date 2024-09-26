@@ -1,8 +1,7 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Perceptron {
-    int dataForTainLanguages = 0;
+    int dataForTrainLanguages = 0;
     private double teta = 0.05;
     ArrayList<String> dataToLearn;
     ArrayList<String> dataToPredict;
@@ -22,13 +21,11 @@ public class Perceptron {
         for (String text : dataToPredict) {
             Data data = Service.createData(text);
             double[] testData = data.array;
-            if (predict(testData) == 1) {
+            if ((predict(testData) > teta ? 1.0 : 0.0) == 1) {
                 counter++;
             }
-            System.out.println("Skutecznosc tekstu dla jezyka " + language + " " +  Data.math(data.skutecznosc, dataForTainLanguages) + "%");
 
         }
-        System.out.println("Skutecznosc wszystkich testow " + (int) ((double )counter/dataToPredict.size() * 100));
         System.out.println(counter + " of " + dataToPredict.size() + " tests passed " + language);
     }
     public void PerceptronTrainingFromData(){
@@ -36,25 +33,25 @@ public class Perceptron {
         do {
             for (String trainText : dataToLearn) {
                 double[] dataForPerceptron = Service.createData(trainText).array;
-                dataForTainLanguages += Service.createData(trainText, dataForTainLanguages);
+                dataForTrainLanguages += Service.createData(trainText, dataForTrainLanguages);
                 train(dataForPerceptron);
             }
 
             counter = 0;
             for (String text : dataToLearn) {
                 double[] testData = Service.createData(text).array;
-                if (predict(testData) == 1) {
+                if ((predict(testData) > teta ? 1.0 : 0.0) == 1) {
                     counter++;
                 }
             }
         } while (counter != dataToLearn.size());
-        System.out.println(Arrays.toString(weights));
+
     }
 
 
     public void train(double[] dataToTrain){
 
-            double prediction = predict(dataToTrain);
+            double prediction = predict(dataToTrain) > teta ? 1.0 : 0.0;
             double error =  1 - prediction;
             for (int j = 0; j < weights.length; j++){
                 double alpha = 0.1;
@@ -69,7 +66,7 @@ public class Perceptron {
         for (int i = 0; i < input.length; i++){
             ans += weights[i] * input[i];
         }
-        return ans > teta ? 1.0 : 0.0;
+        return ans ;
     }
 
 }
