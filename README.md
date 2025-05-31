@@ -1,5 +1,5 @@
 # 🤖 Simple perceptron neural network
-## 🌐 Trainned languages
+## 🌐 Trained languages
 **English**      
 **Polish**      
 **Turkish**       
