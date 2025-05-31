@@ -1,4 +1,4 @@
-# Simple perceptron neural network
+# 🤖 Simple perceptron neural network
 ## 🌐 Languages
 **English**
 **Polish**
